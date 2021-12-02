@@ -1,0 +1,7 @@
+MYSQL_ROOT_PASSWORD=root
+MYSQL_DATABASE=react4multisite
+MYSQL_USER=react
+MYSQL_PASSWORD=react4multisite
+CURRENT_SITE=react-dev.wp.wellnessliving.local
+TRUE=true
+FALSE=false

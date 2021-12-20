@@ -1,17 +1,17 @@
-#WP/React Multisite Builder
+# WP/React Multisite Builder
 
-##Precondition
+## Precondition
 
 - `cp env-example .env`
 - `mkdir dbfile react4multisite wp-multisite`
 
-###Git WordPress
+### Git WordPress
 
 - `git clone git@github.com:wellnessliving/wp-multisite.git ./wp-multisite`
 - `git checkout development`
 - `mv ./docker/wordpress/config/wp-config.php ./wp-multisite`
 
-###Git React
+### Git React
 
 - `git clone git@github.com:wellnessliving/react4multisite.git ./react4multisite`
 - `git checkout development`
@@ -19,14 +19,14 @@
 - `cd react4multisite/dev_build`
 - `bash build_local.sh`
 
-##Run Docker Image
+## Run Docker Image
 
 - `docker-compose up -d`
 
-##Stop Docker Image
+## Stop Docker Image
 
 - `docker-compose down`
 
-##PhpMyAdmin
+## PhpMyAdmin
 
 - `http://localhost:8080/`
